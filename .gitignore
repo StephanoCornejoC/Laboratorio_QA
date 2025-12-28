@@ -1,0 +1,69 @@
+## .NET (Backend)
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+_ReSharper*/
+*.csproj.user
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Angular (Frontend)
+# dependencies
+Frontend/node_modules/
+Frontend/npm-debug.log*
+Frontend/yarn-debug.log*
+Frontend/yarn-error.log*
+
+# IDEs and editors
+Frontend/.idea/
+Frontend/.project
+Frontend/.classpath
+Frontend/.c9/
+Frontend/*.launch
+Frontend/.settings/
+Frontend/*.sublime-workspace
+
+# IDE - VSCode
+Frontend/.vscode/*
+!Frontend/.vscode/settings.json
+!Frontend/.vscode/tasks.json
+!Frontend/.vscode/launch.json
+!Frontend/.vscode/extensions.json
+
+# misc
+Frontend/.angular/
+Frontend/.sass-cache/
+Frontend/connect.lock
+Frontend/coverage/
+Frontend/libpeerconnection.log
+Frontend/testem.log
+Frontend/typings/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Angular build output
+Frontend/dist/
+Frontend/tmp/
+Frontend/out-tsc/
+Frontend/bazel-out/
